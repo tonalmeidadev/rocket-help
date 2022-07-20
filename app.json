@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "ticket-system",
+    "slug": "ticket-system",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
