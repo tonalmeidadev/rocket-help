@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "138331465732",
-    "project_id": "ticket-system-6f1e3",
-    "storage_bucket": "ticket-system-6f1e3.appspot.com"
+    "project_id": "rocket-help-6f1e3",
+    "storage_bucket": "rocket-help-6f1e3.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:138331465732:android:f6b68eb59800f05905ad51",
         "android_client_info": {
-          "package_name": "com.ticketsystem"
+          "package_name": "com.rockethelp"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "138331465732-4o1aooab5pm3g27dqm4fhfdvv7tkbtdu.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.ticketsystem"
+                "bundle_id": "com.rockethelp"
               }
             }
           ]
