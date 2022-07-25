@@ -1,20 +1,24 @@
-import { Button as NativeBaseButton, IButtonProps, Heading } from 'native-base'
+import { Button as ButtonNativeBase, IButtonProps, Heading } from 'native-base'
 
-type Props = IButtonProps & {
+interface Props extends IButtonProps {
   title: string
 }
 
-export function Button({ title, ...rest }:Props) {
+export function Button({ title, ...rest }: Props) {
   return (
-    <NativeBaseButton
-      bg='gray.300'
+    <ButtonNativeBase 
+      bg='green.700'
       h={14}
       fontSize='sm'
       rounded='sm'
-      _pressed={{ bg: 'gray.500' }}
+      _pressed={{
+        bg: 'green.500'
+      }}
       {...rest}
     >
-      <Heading color='white' fontSize='sm' >{title}</Heading>
-    </NativeBaseButton>
+      <Heading color='white' fontSize='sm'>
+        {title}
+      </Heading>
+    </ButtonNativeBase>
   )
 }
